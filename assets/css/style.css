@@ -254,15 +254,71 @@ font-weight: 400;
 font-size: 12px;
 line-height: 29px;
 }
+.blog_body_container{
+    width: 95%;
+    margin: 0 auto 55px;
+    display: flex;
+    justify-content: space-between;
+}
+.blog_col{
+    width: 30%;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25)
+}
+.blogs{
+    height: auto;
+}
+.blog_col img{
+    width:100%;
+    height: 286px;
+}
+
+.blog_head{
+    width: 100%;
+    height: 40px;
+    /* background-color: #56AF58; */
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.blog_head h6{
+    font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 29px;
+}
+.blog_head img{
+    width: 21.88px;
+    height: 25px;
+}
+.blog_head time{
+    font-style: normal;
+font-weight: 400;
+font-size: 15px;
+}
 
 
+.blog_text{
+    width: 100%;
+    height:160px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
 
-
-
-
-
-
-
+}
+.blog_text_p{
+    width: 80%;
+    height: 60%;
+    /* background-color: green; */
+}
+.blog_text p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 19px;
+}
 
 
 
