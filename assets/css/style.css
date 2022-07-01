@@ -11,6 +11,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+.a{
+    color:red
+}
 :root{
     --main-color-green: #56AF58;
     --main-color-black: #000000;
