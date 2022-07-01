@@ -273,8 +273,9 @@ line-height: 29px;
 }
 
 .blog_head{
-    width: 100%;
+    width: 95%;
     height: 40px;
+    margin: auto;
     /* background-color: #56AF58; */
     display: flex;
     justify-content: space-between;
