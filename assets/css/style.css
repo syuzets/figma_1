@@ -7,6 +7,127 @@
     src: url(../font/Ubuntu-BoldItalic.ttf);
 }
 *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --main-color-green: #56AF58;
+    --main-color-black: #000000;
+    --main-color-white: #FFFFFF;
+    --slidbar-color: #EEF2FF;
+    --ubuntu-Medium:ubuntu-Medium;
+    --Ubuntu-BoldItalic: Ubuntu-BoldItalic;
+}
+body{
+    font-family: var(--ubuntu-Medium);
+   
+}
+a{
+    text-decoration: none;
+}
+
+header{
+    width: 100%;
+    height: 155px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+}
+.logo{
+    width: 10%;
+    height: 112px;
+
+}
+.logo img{
+    width: 112px;
+    height: 112px;
+}
+nav{
+    width: 50%;
+    height: 82px;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signIn{
+    width: 20%;
+    height: 82px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.webMenu{
+
+    display: flex;
+    gap:50px
+}
+.webMenu li{
+    list-style: none;
+}
+.webMenu a.active{
+    padding-bottom: 2px;
+    border-bottom:1px solid  var(--main-color-green);
+    color: var(--main-color-green);
+}
+
+.webMenu a{
+    color: var(--main-color-black);
+}
+
+
+.signIn a{
+font-size: 20px;
+font-weight: 500;
+color: var(--main-color-black);
+}
+.signIn button{
+    width: 145px;
+height: 44px;
+font-size: 20px;
+font-weight: 500;
+color: var(--main-color-white);
+background-color: var(--main-color-green);
+border-radius: 11px;
+border: none;
+}
+.slidbar{
+    width: 100%;
+    height: 700px;
+    display: flex;
+
+    background-color: var(--slidbar-color);
+    /* border: 1px solid; */
+    margin-bottom: 55px;
+}
+.slidone{
+    width: 50%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+ 
+}
+.slidbar_text{
+    width: 100%;
+    height: 65%;
+    /* background-color: red; */
+  
+}
+.slidtwo{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+
+}
+
 .slidbar_image{
     width: 100%;
     height: 70%;
